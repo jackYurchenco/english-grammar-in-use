@@ -7,9 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'english-grammar-in-use';
-
-
-  public log(data: string): void {
-    console.log(data)
-  }
 }

@@ -10,9 +10,6 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { NzButtonModule } from 'ng-zorro-antd/button';
-import { NzDropDownModule } from 'ng-zorro-antd/dropdown';
-
 registerLocaleData(uk);
 
 @NgModule({
@@ -23,9 +20,7 @@ registerLocaleData(uk);
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    BrowserAnimationsModule,
-    NzButtonModule,
-    NzDropDownModule
+    BrowserAnimationsModule
   ],
   providers: [
     { provide: NZ_I18N, useValue: uk_UA }
