@@ -3,10 +3,14 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve -o",
     "build": "ng build",
+    "build-prod": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "firebase-login": "fitebase login",
+    "firebase-init": "fitebase init",
+    "firebase-deploy": "fitebase deploy"
   },
   "private": true,
   "dependencies": {
