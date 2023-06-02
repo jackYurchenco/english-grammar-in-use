@@ -1,5 +1,19 @@
-<button nz-button nzType="primary">Primary Button</button>
+<!-- <button nz-button nzType="primary">Primary Button</button>
 <button nz-button nzType="default">Default Button</button>
 <button nz-button nzType="dashed">Dashed Button</button>
 <button nz-button nzType="text">Text Button</button>
 <a nz-button nzType="link">Link Button</a>
+
+<a nz-dropdown nzTrigger="click" [nzDropdownMenu]="menu">
+  Click me
+  <span nz-icon nzType="down"></span>
+</a>
+<nz-dropdown-menu #menu="nzDropdownMenu">
+  <ul nz-menu nzSelectable>
+    <li nz-menu-item (click)="log('1st menu item')">1st menu item</li>
+    <li nz-menu-item (click)="log('2st menu item')">2nd menu item</li>
+    <li nz-menu-item (click)="log('3st menu item')">3rd menu item</li>
+    <li nz-menu-item nzDanger>4th danger item</li>
+  </ul>
+</nz-dropdown-menu> -->
+<router-outlet></router-outlet>
