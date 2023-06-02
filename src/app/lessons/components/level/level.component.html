@@ -1,0 +1,15 @@
+<a 
+  nz-dropdown 
+  nzTrigger="click" 
+  [nzDropdownMenu]="menu"
+>
+  <span>{{ level }}</span>
+  <span nz-icon nzType="down"></span>
+</a>
+<nz-dropdown-menu #menu="nzDropdownMenu">
+  <ul nz-menu nzSelectable>
+    <li nz-menu-item (click)="selectLevel('beginner')">Beginner</li>
+    <li nz-menu-item (click)="selectLevel('intermediate')">Intermediate</li>
+    <li nz-menu-item (click)="selectLevel('advanced')">Advanced</li>
+  </ul>
+</nz-dropdown-menu>

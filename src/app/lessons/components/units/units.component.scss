@@ -1,0 +1,11 @@
+nz-list {
+  height: 100%;
+  overflow: auto;
+  nz-list-item {
+    color: #fff;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
